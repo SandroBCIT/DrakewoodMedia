@@ -379,10 +379,16 @@ a:focus {
   }
 }
 
+.logo{
+    display: table;
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+}
 .btn-circle {
   width: 70px;
   height: 70px;
-  margin-top: 30%;
+  margin-top: 5%;
   padding: 7px 16px;
   border: 2px solid black;
   border-radius: 100% !important;
@@ -486,7 +492,6 @@ a:focus {
 
 .btn {
   text-transform: uppercase;
-  
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -574,13 +579,6 @@ img::-moz-selection {
     background-color: #2E2D37;
 }
 
-.minilogo{
-    padding-top: 75px;
-    display: table;
-    margin: 0 auto;
-    height: 200px;
-    width: auto;
-}
 
 .social{
     font-size: 5em;
