@@ -5,10 +5,12 @@ body {
     color: #515B66;
     background-color: #2E2D37;
 }
+
 html {
   width: 100%;
   height: 100%;
 }
+
 h1,
 h2,
 h3,
@@ -21,11 +23,13 @@ h6{
   font-weight: 700;
   letter-spacing: 1px;
 }
+
 p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
 }
+
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -33,70 +37,85 @@ p {
     line-height: 1.6;
   }
 }
+
 a {
-    font-family: 'Titillium Web', sans-serif;
     font-size: 1.5em;
     color: black;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
+
 a:hover,
 a:focus {
   text-decoration: none;
   color: white;
 }
+
 .light {
   font-weight: 400;
 }
+
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   background-color: #515B66;
 }
+
 .navbar-custom .navbar-toggle {
   color: #515B66;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
+
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
   outline: none;
 }
+
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
+
 .navbar-custom .navbar-brand:focus {
   outline: none;
 }
+
 .navbar-custom a {
   
 }
+
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
+
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
 }
+
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
+
 .navbar-custom .nav li.active {
   outline: none;
 }
+
 .navbar-custom .nav li.active a {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
 .navbar-custom .nav li.active a:hover {
-  color: ;
+  color: white;
 }
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -113,13 +132,13 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
+
 #landing {
     display: table;
     width: 100%;
     height: 100%;
     padding: 100px 0;
     text-align: center;
-    color: white;
     background: url(../img/banner_no_title.png) no-repeat bottom center fixed;  
     background-color: black;
     -webkit-background-size: cover;
@@ -127,6 +146,7 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+
 #aboutus {
     display: table;
     width: 100%;
@@ -148,17 +168,19 @@ a:focus {
     /* ...and now for the proper property */
     transition:.8s;
 }
+
 #aboutus:hover{
     filter: contrast(30%);
 }
-#projects {
+
+#aboutusbanner {
     display: table;
     width: 100%;
     height: 50%;
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../img.jpg) no-repeat bottom center fixed;
+    background: url(../img/aboutUs.jpg) no-repeat bottom center fixed;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,9 +194,55 @@ a:focus {
     /* ...and now for the proper property */
     transition:.8s;
 }
+
+#projects {
+    display: table;
+    width: 100%;
+    height: 50%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/projects.png) no-repeat bottom center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+/*smooth hover effect*/
+    -o-transition:.8s;
+    -ms-transition:.8s;
+    -moz-transition:.8s;
+    -webkit-transition:.8s;
+    /* ...and now for the proper property */
+    transition:.8s;
+}
+
 #projects:hover{
     filter: contrast(30%);
 }
+
+#projectsbanner {
+    display: table;
+    width: 100%;
+    height: 50%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/projects.png) no-repeat bottom center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+/*smooth hover effect*/
+    -o-transition:.8s;
+    -ms-transition:.8s;
+    -moz-transition:.8s;
+    -webkit-transition:.8s;
+    /* ...and now for the proper property */
+    transition:.8s;
+}
+
 #thegear {
     display: table;
     width: 100%;
@@ -196,9 +264,33 @@ a:focus {
     /* ...and now for the proper property */
     transition:.8s;
 }
+
+#thegearbanner {
+    display: table;
+    width: 100%;
+    height: 50%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/gear.jpg) no-repeat bottom center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+/*smooth hover effect*/
+    -o-transition:.8s;
+    -ms-transition:.8s;
+    -moz-transition:.8s;
+    -webkit-transition:.8s;
+    /* ...and now for the proper property */
+    transition:.8s;
+}
+
 #thegear:hover{
     filter: contrast(30%);
 }
+
 #contactus {
     display: table;
     width: 100%;
@@ -220,8 +312,53 @@ a:focus {
     /* ...and now for the proper property */
     transition:.8s;
 }
+
+#contactus {
+    display: table;
+    width: 100%;
+    height: 50%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/contactus.jpg) no-repeat bottom center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+/*smooth hover effect*/
+    -o-transition:.8s;
+    -ms-transition:.8s;
+    -moz-transition:.8s;
+    -webkit-transition:.8s;
+    /* ...and now for the proper property */
+    transition:.8s;
+}
+
 #contactus:hover{
     filter: contrast(30%);
+}
+
+#contactusbanner {
+    display: table;
+    width: 100%;
+    height: 50%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/contactus.jpg) no-repeat bottom center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+/*smooth hover effect*/
+    -o-transition:.8s;
+    -ms-transition:.8s;
+    -moz-transition:.8s;
+    -webkit-transition:.8s;
+    /* ...and now for the proper property */
+    transition:.8s;
 }
 
 .sect h1{
@@ -241,32 +378,36 @@ a:focus {
     font-size: 26px;
   }
 }
+
 .btn-circle {
   width: 70px;
   height: 70px;
   margin-top: 30%;
   padding: 7px 16px;
-  border: 2px solid #89291B;
+  border: 2px solid black;
   border-radius: 100% !important;
   font-size: 40px;
-  color: #89291B;
+  color: black;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
+
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
   color: white;
   background: rgba(255, 255, 255, 0.1);
 }
+
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
   -moz-transition-duration: 1s;
 }
+
 .btn-circle:hover i.animated {
   -webkit-animation-name: pulse;
   -moz-animation-name: pulse;
@@ -277,6 +418,7 @@ a:focus {
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
 }
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
@@ -291,6 +433,7 @@ a:focus {
     transform: scale(1);
   }
 }
+
 @-moz-keyframes pulse {
   0% {
     -moz-transform: scale(1);
@@ -305,9 +448,11 @@ a:focus {
     transform: scale(1);
   }
 }
+
 .content-section {
   padding-top: 100px;
 }
+
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -319,11 +464,13 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+
 #map {
     width: 100%;
     height: 200px;
     margin-top: 100px;
 }
+
 @media (min-width: 767px) {
   .content-section {
     padding-top: 250px;
@@ -336,6 +483,7 @@ a:focus {
     margin-top: 250px;
   }
 }
+
 .btn {
   text-transform: uppercase;
   
@@ -345,11 +493,13 @@ a:focus {
   transition: all 0.3s ease-in-out;
   border-radius: 0;
 }
+
 .btn-default {
   border: 1px solid #42DCA3;
   color: #42DCA3;
   background-color: transparent;
 }
+
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #42DCA3;
@@ -357,14 +507,17 @@ a:focus {
   color: black;
   background-color: #42DCA3;
 }
+
 ul.banner-social-buttons {
   margin-top: 0;
 }
+
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
     margin-top: 15px;
   }
 }
+
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
     display: block;
@@ -375,28 +528,41 @@ ul.banner-social-buttons {
     margin-bottom: 0;
   }
 }
+
 footer {
   padding: 50px 0;
 }
+
 footer p {
   margin: 0;
 }
+
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
+
 ::selection {
   text-shadow: none;
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
+
 img::selection {
   background: transparent;
 }
+
 img::-moz-selection {
   background: transparent;
 }
+
+
+/* Timeline Code */
+
+
+
+/* Timeline Code End */
 
 /*Custom CSS*/
 #DM{
@@ -406,11 +572,13 @@ img::-moz-selection {
     width: 75%;
     height: auto;
 }
+
 .divider{
-    height: 200px;
+    height: 25%;
     width: 100%;
     background-color: #2E2D37;
 }
+
 .minilogo{
     padding-top: 75px;
     display: table;
@@ -418,7 +586,72 @@ img::-moz-selection {
     height: 200px;
     width: auto;
 }
+
 .social{
     font-size: 5em;
     padding-bottom: 20px;
+}
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.content h1{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.content h2{
+    text-align: center;
+    color: #176A36;
+}
+
+.content p{
+    font-family: 'Yanone Kaffeesatz'; 
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.hline{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    height: 2px;
+    width: 75%;
+    background-color: #89291B;
+}
+
+.storyimg{
+    display: table;
+    margin: 0 auto;
+    height: auto;
+    width: 500px;
+    border-radius: 100%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+/* for smaller screens */
+@media (max-width: 600px){
+    .storyimg{
+        width: 90%;
+    }
+}
+
+.video{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 1160px;
+    height: 630px;
+    
+}
+@media (max-width: 1383px){
+    .video{
+        margin-bottom: 100px;
+        width: 560px;
+        height: 315px;
+    }
 }
