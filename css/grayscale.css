@@ -765,7 +765,7 @@ input:focus, textarea:focus {
 	  overflow: hidden; 
 }
 
-.btn {
+.sbtn {
     width: 138px;
     height: 44px;
     -moz-border-radius: 4px;
@@ -785,14 +785,14 @@ input:focus, textarea:focus {
     color: #e1e1e1;
 }
 
-.btn:hover {
+.sbtn:hover {
     border: 1px solid #253737;
     text-shadow: #333333 0 1px 0;
     background-color: white;
     color: black;
  }
 
-.btn:active {
+.sbtn:active {
     margin-top:1px;
     text-shadow: #333333 0 -1px 0;
     border: 1px solid #253737;
