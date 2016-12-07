@@ -378,7 +378,9 @@ a:focus {
     font-size: 26px;
   }
 }
-
+#logocontainer{
+    margin-top: 20px;
+}
 .logo{
     display: table;
     margin: 0 auto;
@@ -566,7 +568,6 @@ img::-moz-selection {
 
 /*Custom CSS*/
 #DM{
-    padding-top: 50px;
     display: table;
     margin: 0 auto;
     width: 75%;
