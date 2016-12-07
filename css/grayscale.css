@@ -39,7 +39,7 @@ p {
 }
 
 a {
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: black;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -558,11 +558,6 @@ img::-moz-selection {
 }
 
 
-/* Timeline Code */
-
-
-
-/* Timeline Code End */
 
 /*Custom CSS*/
 #DM{
@@ -602,6 +597,7 @@ img::-moz-selection {
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     color: white;
+    font-size: 4em;
 }
 
 .content h2{
@@ -654,4 +650,13 @@ img::-moz-selection {
         width: 560px;
         height: 315px;
     }
+}
+.img{
+    display: table;
+    margin: 0 auto;
+    width: 55%;
+    height: auto;
+}
+.link{
+    font-size: 1em;
 }
